@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulier</title>
+</head>
+<h1>Contactformulier</h1>
+<body>
+<form method="post" action="bewaarInformatie.php">
+<table width="600" border="0">
+<tbody>
+<tr>
+<td width="200"><b>Naam</b></td>
+<td width="400"><input type="text" name="naam" placeholder="Voor- en achternaam"></td>
+</tr>
+<tr>
+<td><b>Aanhef</b></td>
+<td><input type="text" name="aanhef"></td>
+</tr>
+<tr>
+<td><b>Uw adres</b></td>
+<td><input type="text" name="adres" placeholder="Straatnaam en huisnummer"></td>
+</tr>
+<tr>
+<td><b>Uw postcode</b></td>
+<td><input type="number" name="postcode"></td>
+</tr>
+<tr>
+<td><b>Uw woonplaats</b></td>
+<td><input type="text" name="woonplaats"></td>
+</tr>
+<tr>
+<td><b>Uw profielfoto</b></td>
+<td><input type="file" name="foto"></td>
+</tr>
+<tr>
+<td><b>Uw geboortedatum</b>
+</td>
+<td><input type="date" name="datum" max="2080-12-31">
+</td>
+</tr>
+<br>
+<tr>
+<td width="200"><b>Hoogst genoten opleiding</b></td>
+<td width="400"><input type="text" name="opleiding"></td>
+</tr>
+<tr>
+<td><b>Selecteer uw land</b></td>
+<td><select name="cursus">
+<option value="een">Cursus 1</option>
+<option value="twee" selected>Cursus 2</option>
+<option value="drie">Cursus 3</option>
+</select></td></tr>
+<tr>
+<td><b>Gewenste startdatum</b>
+</td>
+<td><input type="date" name="datum" max="2030-12-31">
+</td>
+<td><button type="submit" name="verzendknop">
+<strong>Verzend</strong></button></td>
